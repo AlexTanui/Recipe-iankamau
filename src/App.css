@@ -7,6 +7,24 @@
   pointer-events: none;
 }
 
+.card{
+  width: 380px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 20px;
+  background-color: #61dafb;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: 2px 8px 8px rgba(255, 3, 3, 0.1);
+  align-items: center;
+}
+.card:hover{
+  box-shadow: 0px 4px 6px rgba(207, 243, 4, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
